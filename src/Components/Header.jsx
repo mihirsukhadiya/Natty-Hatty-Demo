@@ -11,22 +11,35 @@ const Header = () => {
           <div className="font-secondary text-smd uppercase text-white leading-normal font-bold">
             logo
           </div>
-          <div className="relative" style={{ marginLeft: "218px" }}>
-            <div className="font-primary text-sm text-white leading-none font-normal hover:text-orange cursor-pointer">
+          <div
+            className="relative  text-white menuClass  hover:text-orange cursor-pointer"
+            style={{ marginLeft: "218px" }}
+          >
+            <div className="font-primary text-sm leading-none font-normal">
               Menu 1
             </div>
-            <div className="absolute h-160 w-164 bg-white shadow-6md rounded-6">
-              <div className="py-11 px-15">
-                <div className="font-primary text-sm">My Programs</div>
-              </div>
-              <div className="py-11 px-15">
-                <div className="font-primary text-sm">New Programs</div>
-              </div>
-              <div className="py-11 px-15">
-                <div className="font-primary text-sm">Program Invites</div>
-              </div>
-              <div className="py-11 px-15">
-                <div className="font-primary text-sm">Program Requests</div>
+            <div className="absolute top-0 w-164 subMenuClass">
+              <div className="mt-8 w-164 bg-white shadow-6md rounded-6 tracking-normal">
+                <div className="rounded-t-6 cursor-pointer">
+                  <div className="font-primary rounded-t-6 text-sm leading-16 text-thirdBlack font-medium hover:font-semibold hover:bg-orange hover:text-white py-11 px-15">
+                    My Programs
+                  </div>
+                </div>
+                <div className="cursor-pointer">
+                  <div className="font-primary text-sm leading-16 text-thirdBlack font-medium hover:font-semibold hover:bg-orange hover:text-white py-11 px-15">
+                    New Programs
+                  </div>
+                </div>
+                <div className="cursor-pointer">
+                  <div className="font-primary text-sm leading-16 text-thirdBlack font-medium hover:font-semibold hover:bg-orange hover:text-white py-11 px-15">
+                    Program Invites
+                  </div>
+                </div>
+                <div className="rounded-b-6 cursor-pointer">
+                  <div className="font-primary rounded-b-6 text-sm leading-16 text-thirdBlack font-medium hover:font-semibold hover:bg-orange hover:text-white py-11 px-15">
+                    Program Requests
+                  </div>
+                </div>
               </div>
             </div>
           </div>

@@ -73,6 +73,7 @@ module.exports = {
       lineHeight: {
         none: "1rem",
         // tight: '1.2',
+        16: "1rem", //19px
         19: "1.188rem", //19px
         // snug: '1.3',
         21: "1.313rem", //21px
