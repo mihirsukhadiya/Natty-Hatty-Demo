@@ -5,7 +5,7 @@ import ProfilePicture from "../Assets/Image/profile-picture.png";
 
 const Header = () => {
   return (
-    <Box className="bg-thirdBlack h-60 flex items-center px-10">
+    <Box className="bg-thirdBlack h-60 flex items-center px-40">
       <Box className="flex items-center justify-between w-full">
         <Box className="flex items-center">
           <div className="font-secondary text-smd uppercase text-white leading-normal font-bold">
