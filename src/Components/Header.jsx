@@ -2,11 +2,12 @@ import { Box, Typography } from "@mui/material";
 import React from "react";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import ProfilePicture from "../Assets/Image/profile-picture.png";
+import { ReactComponent as Menu } from "../Assets/Svg/menu.svg";
 
 const Header = () => {
   return (
-    <Box className="bg-thirdBlack h-60 flex items-center px-40">
-      <Box className="flex items-center justify-between w-full">
+    <Box className="bg-thirdBlack h-60 flex items-center lg:px-40 px-20">
+      {/* <Box className="flex items-center justify-between w-full">
         <Box className="flex items-center">
           <div className="font-secondary text-smd uppercase text-white leading-normal font-bold">
             logo
@@ -68,7 +69,28 @@ const Header = () => {
             style={{ width: "37px", height: "37px" }}
           />
         </Box>
-      </Box>
+      </Box> */}
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center">
+          <Menu width="24px" height="24px" fill="orange" />
+          <div className="font-secondary ml-15 text-smd uppercase text-white leading-normal font-bold">
+            logo
+          </div>
+        </div>
+        <div className="flex items-center">
+          <NotificationsNoneIcon
+            height="32px"
+            width="32px"
+            sx={{ color: "#FFFFFF" }}
+          />
+          <img
+            src={ProfilePicture}
+            className="ml-24"
+            alt="Profile Picture"
+            style={{ width: "37px", height: "37px" }}
+          />
+        </div>
+      </div>
     </Box>
   );
 };

@@ -4,11 +4,12 @@ import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import ProfilePicture from "../Assets/Image/profile-picture.png";
 import ToastMessage from "./ToastMessage";
 import Button from "./Button";
+import { ReactComponent as Dots } from "../Assets/Svg/Dots.svg";
 
 const PageTitleBar = () => {
   return (
-    <Box className="mt-25 px-40">
-      <Box className="flex items-center justify-between w-full">
+    <Box className="mt-25 lg:px-40 px-20">
+      {/* <Box className="flex items-center justify-between w-full">
         <div className="font-primary text-28 text-black leading-loose font-medium">
           My Account
         </div>
@@ -25,7 +26,15 @@ const PageTitleBar = () => {
           lineHeight={"19"}
           background={"thirdBlack"}
         />
-      </Box>
+      </Box> */}
+      <div className="flex items-center justify-between">
+        <div className="font-primary text-22 text-black leading-loose font-medium">
+          My Account
+        </div>
+        <div>
+          <Dots />
+        </div>
+      </div>
     </Box>
   );
 };

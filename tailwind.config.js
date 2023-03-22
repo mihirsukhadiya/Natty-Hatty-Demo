@@ -17,6 +17,7 @@ module.exports = {
       colors: {
         white: "#FFFFFF",
         secondWhite: "#F5F6F8",
+        thirdWhite: "#7D7D7D",
         black: "#000000",
         secondBlack: "#202020",
         thirdBlack: "#232E3E",
@@ -53,6 +54,7 @@ module.exports = {
         sm: "0.875rem", //14px
         base: "1rem", //16px
         smd: "1.125rem", //18px
+        22: "1.375rem", //22px
         28: "1.75rem", //25px
         26: "1.625rem", //25px
         // md: '1.25rem', //20px
@@ -92,6 +94,7 @@ module.exports = {
         18: "1.125rem",
         20: "1.25rem",
         23: "1.438rem",
+        24: "1.5rem",
         25: "1.563rem",
         26: "1.625rem",
         27: "1.688rem",
@@ -102,8 +105,10 @@ module.exports = {
         35: "2.188rem",
         40: "2.5rem",
         41: "2.563rem",
+        48: "3rem",
         54: "3.375rem",
         57: "3.563rem",
+        66: "4.125rem",
         70: "4.375rem",
         80: "5rem",
         86: "5.375rem",
@@ -112,6 +117,7 @@ module.exports = {
         107: "6.688rem",
         122: "7.625rem",
         130: "8.125rem",
+        144: "9rem",
         164: "10.25rem",
         160: "10rem",
         185: "11.563rem",
