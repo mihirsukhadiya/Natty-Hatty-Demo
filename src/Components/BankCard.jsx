@@ -1,7 +1,6 @@
-import { Box, Divider, Typography } from "@mui/material";
-import React, { useState } from "react";
+import { Box } from "@mui/material";
+import React from "react";
 import MasterCard from "../Assets/Image/mastercard.png";
-import { ClickAwayListener } from "@mui/base";
 const BankCard = () => {
   return (
     <>

@@ -1,5 +1,5 @@
-import { Box, Divider, Typography } from "@mui/material";
-import React, { useState } from "react";
+import { Box } from "@mui/material";
+import React from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import SampleProfile from "../Assets/Image/sample-dp.png";
 import PeopleIcon from "../Assets/Image/people-icon.png";

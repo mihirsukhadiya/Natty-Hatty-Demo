@@ -1,7 +1,6 @@
-import { Box, Divider, Typography } from "@mui/material";
-import React, { useState } from "react";
-import MasterCard from "../Assets/Image/mastercard.png";
-import { ClickAwayListener } from "@mui/base";
+import { Box } from "@mui/material";
+import React from "react";
+
 const BillingCard = () => {
   return (
     <Box className="bg-secondWhite md:mt-0 slg:mt-20 rounded-6 px-18 pt-10.5 pb-70 flex flex-col xs:h-auto md:h-full slg:h-auto">

@@ -1,4 +1,4 @@
-import { Box, Drawer, Typography } from "@mui/material";
+import { Box, Drawer } from "@mui/material";
 import React, { useState } from "react";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import ProfilePicture from "../Assets/Image/profile-picture.png";

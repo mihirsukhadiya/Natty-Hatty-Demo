@@ -1,4 +1,4 @@
-import { Box, Divider, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import React, { useState } from "react";
 import ProfilePicture from "../Assets/Image/profile-picture.png";
 import { ReactComponent as CameraIcon } from "../Assets/Svg/camera.svg";

@@ -59,23 +59,8 @@ module.exports = {
         22: "1.375rem", //22px
         28: "1.75rem", //25px
         26: "1.625rem", //25px
-        // md: '1.25rem', //20px
-        // lg: '1.5rem', //24px
-        // xl: '2rem', //32px
-        // '2xl': '2.25rem', //36px
-        // '3xl': '3rem', //48px
-        // '4xl': '3.75rem', //60px
-        // '5xl': '4.5rem', //72px
-        // '6xl': '5rem', //80px
       },
       spacing: {
-        // '1.5': '0.375rem',
-        // '2.5': '0.625rem',
-        // '7': '1.875rem',
-        // '14': '3.5rem',
-        // '15': '3.75rem',
-        // '29': '7.5rem',
-        // '60': '15rem',
         1: "0.063rem",
         2: "0.125rem",
         4: "0.25rem",
@@ -132,22 +117,18 @@ module.exports = {
         "6md": "0px 0px 6px #00000029",
       },
       gridTemplateColumns: {
-        '16': 'repeat(16, minmax(0, 1fr))',
+        16: "repeat(16, minmax(0, 1fr))",
       },
       lineHeight: {
         none: "1rem",
-        // tight: '1.2',
         14: "0.875rem", //19px
         16: "1rem", //19px
         19: "1.188rem", //19px
-        // snug: '1.3',
         21: "1.313rem", //21px
         24: "1.5rem", //21px
         30: "1.875rem", //21px
         normal: "1.5rem", //24px
         loose: "2.063rem", //33px
-        // relaxed: '1.57',
-        // loose: '1.66',
       },
     },
   },
