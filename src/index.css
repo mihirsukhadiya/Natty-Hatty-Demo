@@ -13,4 +13,5 @@ body {
 }
 .MuiPaper-root {
   width: 100%;
+  border: none !important;
 }

@@ -4,9 +4,16 @@ import MasterCard from "../Assets/Image/mastercard.png";
 import { ClickAwayListener } from "@mui/base";
 const BillingCard = () => {
   return (
-    <Box className="bg-secondWhite mt-20 rounded-6 px-18 pt-10.5 pb-70 flex h-full flex-col">
-      <div className="font-primary text-black font-semibold text-smd leading-21">
-        Billing Address
+    <Box className="bg-secondWhite md:mt-0 slg:mt-20 rounded-6 px-18 pt-10.5 pb-70 flex flex-col xs:h-auto md:h-full slg:h-auto">
+      <div className="slg:block md:flex md:justify-between md:items-center">
+        <div className="font-primary text-black font-semibold text-smd leading-21">
+          Billing Address
+        </div>
+        <Box className="rounded-4 bg-thirdBlack text-center py-2.5 align-center w-100 slg:hidden md:block xs:hidden">
+          <div className="font-primary text-white font-medium text-xs leading-19 cursor-pointer">
+            Edit Details
+          </div>
+        </Box>
       </div>
       <div className="mt-30 flex items-center">
         <input
@@ -41,7 +48,7 @@ const BillingCard = () => {
             />
           </div>
           <div className="mt-10">
-            <div className="flex gap-18">
+            <div className="flex slg:flex-row md:flex-col gap-18">
               <div>
                 <div className="font-primary text-secondBlack font-medium text-xs leading-14">
                   Country:
@@ -89,7 +96,7 @@ const BillingCard = () => {
             />
           </div>
           <div className="mt-10">
-            <div className="flex gap-18">
+            <div className="flex gap-18  slg:flex-row md:flex-col ">
               <div>
                 <div className="font-primary text-secondBlack font-medium text-xs leading-14">
                   City:
@@ -114,9 +121,9 @@ const BillingCard = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-end items-center mt-41">
+      <div className="justify-end items-center mt-41 slg:flex hidden">
         <Box className="rounded-4 bg-thirdBlack text-center py-2.5 align-center w-100">
-          <div className="font-primary text-white font-medium text-xs leading-19">
+          <div className="font-primary text-white font-medium text-xs leading-19 cursor-pointer">
             Edit Details
           </div>
         </Box>

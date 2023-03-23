@@ -76,15 +76,18 @@ const FamilyCard = () => {
     //     )}
     //   </Box>
     // </Box>
-    <Box className="bg-secondWhite rounded-6 px-11 py-18">
+    <Box className="bg-secondWhite rounded-6 px-11 py-18 xs:mt-35 md:mt-0">
       <Box className="flex justify-between items-center">
-        <div className="font-primary text-black font-semibold text-smd leading-21">
+        <div className="font-primary lg:block hidden text-black font-semibold text-smd leading-21">
+          Family
+        </div>
+        <div className="lg:hidden font-primary text-black font-semibold text-smd leading-21">
           My Family
         </div>
         <div className="flex items-center">
           <SearchIcon className="w-17 h-17 mr-16" />
           <Box className="rounded-4 bg-darkGreen text-center py-8 w-80 align-center">
-            <div className="font-primary text-white font-semibold text-xs leading-14">
+            <div className="font-primary text-white font-semibold text-xs leading-14 cursor-pointer">
               Add New
             </div>
           </Box>

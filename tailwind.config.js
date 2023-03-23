@@ -11,6 +11,7 @@ module.exports = {
       sm: "428px",
       md: "768px",
       lg: "1024px",
+      slg: "1400px",
       xl: "1920px",
     },
     extend: {
@@ -18,6 +19,7 @@ module.exports = {
         white: "#FFFFFF",
         secondWhite: "#F5F6F8",
         thirdWhite: "#7D7D7D",
+        fourthWhite: "#F7F7F7",
         black: "#000000",
         secondBlack: "#202020",
         thirdBlack: "#232E3E",
@@ -129,6 +131,9 @@ module.exports = {
       boxShadow: {
         "6md": "0px 0px 6px #00000029",
       },
+      gridTemplateColumns: {
+        '16': 'repeat(16, minmax(0, 1fr))',
+      },
       lineHeight: {
         none: "1rem",
         // tight: '1.2',
@@ -137,6 +142,7 @@ module.exports = {
         19: "1.188rem", //19px
         // snug: '1.3',
         21: "1.313rem", //21px
+        24: "1.5rem", //21px
         30: "1.875rem", //21px
         normal: "1.5rem", //24px
         loose: "2.063rem", //33px
