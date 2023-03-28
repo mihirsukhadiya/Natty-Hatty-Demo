@@ -1,7 +1,8 @@
 import { Box } from "@mui/material";
-import React from "react";
+import React, { useState } from "react";
 
 const BillingCard = () => {
+  const [checkBox, setCheckBox] = useState(true)
   return (
     <Box className="bg-secondWhite md:mt-0 slg:mt-20 rounded-6 px-18 pt-10.5 pb-70 flex flex-col xs:h-auto md:h-full slg:h-auto">
       <div className="slg:block md:flex md:justify-between md:items-center">
@@ -18,7 +19,8 @@ const BillingCard = () => {
         <input
           className="w-20 h-20 border-none accent-orange"
           type="checkbox"
-          checked={true}
+          checked={checkBox}
+          onChange={() => setCheckBox(true)}
         />
         <div className="ml-10 font-primary text-thirdBlack font-medium text-sm leading-16">
           Same as Home Address
@@ -33,7 +35,7 @@ const BillingCard = () => {
             <input
               className="w-full py-10 mt-2 pl-13 border border-fifthGray font-primary text-sm font-medium leading-16 rounded-4 bg-white"
               type="text"
-              value="John"
+              placeholder="John"
             />
           </div>
           <div className="mt-10">
@@ -43,7 +45,7 @@ const BillingCard = () => {
             <input
               className="w-full py-10 mt-2 pl-13 border border-fifthGray font-primary text-sm font-medium leading-16 rounded-4 bg-white"
               type="text"
-              value="123 fredline street"
+              placeholder="123 fredline street"
             />
           </div>
           <div className="mt-10">
@@ -55,7 +57,7 @@ const BillingCard = () => {
                 <input
                   className="w-full py-10 mt-2 pl-13 border border-fifthGray font-primary text-sm font-medium leading-16 rounded-4 bg-fifthGray"
                   type="text"
-                  value="US"
+                  placeholder="US"
                 />
               </div>
               <div>
@@ -65,7 +67,7 @@ const BillingCard = () => {
                 <select
                   className="w-full py-10 mt-2 text-sixthGray pl-13 border border-fifthGray font-primary text-sm font-medium leading-16 rounded-4 bg-white"
                   disabled={true}
-                  value={"Select"}
+                  placeholder={"Select"}
                 >
                   <option>Select</option>
                 </select>
@@ -81,7 +83,7 @@ const BillingCard = () => {
             <input
               className="w-full py-10 mt-2 pl-13 border border-fifthGray font-primary text-sm font-medium leading-16 rounded-4 bg-white"
               type="text"
-              value="Smith"
+              placeholder="Smith"
             />
           </div>
           <div className="mt-10">
@@ -91,7 +93,7 @@ const BillingCard = () => {
             <input
               className="w-full py-10 mt-2 pl-13 border border-fifthGray font-primary text-sm font-medium leading-16 rounded-4 bg-white"
               type="text"
-              value=""
+              placeholder=""
             />
           </div>
           <div className="mt-10">

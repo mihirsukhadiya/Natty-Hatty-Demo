@@ -13,10 +13,10 @@ const HomePage = () => {
   const [selectedMenu, setSelectedMenu] = useState("profile");
   return (
     <>
-      <div className="pb-40 xs:hidden slg:block hidden">
+      <div className="xs:hidden slg:block hidden">
         <Header />
         <PageTitleBar />
-        <div className="grid grid-cols-16 gap-28 lg:px-40 px-20 mt-25">
+        <div className="grid grid-cols-16 gap-28 lg:px-40 px-20 mt-25 slg:pb-70">
           <div className="flex flex-col col-span-12">
             <div>
               <ProfileCard />

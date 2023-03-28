@@ -15,3 +15,39 @@ body {
   width: 100%;
   border: none !important;
 }
+.arrow-down-desktop-sent {
+  position: absolute;
+  bottom: -13px;
+  left: 30px;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 8px solid #f8991f;
+}
+.arrow-down-desktop-received {
+  position: absolute;
+  bottom: -13px;
+  left: 42px;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 8px solid #f8991f;
+}
+.scrollbar-class::-webkit-scrollbar {
+  width: 20px;
+  cursor: pointer;
+}
+.scrollbar-class::-webkit-scrollbar-track {
+  width: 2px;
+  background-color: #e8e8e8;
+  border-radius: 10px;
+}
+
+.scrollbar-class::-webkit-scrollbar-thumb {
+  background: rgba(35, 46, 62, 0.5);
+  opacity: 50%;
+  cursor: pointer;
+  border-radius: 10px;
+}

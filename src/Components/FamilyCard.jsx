@@ -93,7 +93,7 @@ const FamilyCard = () => {
           </Box>
         </div>
       </Box>
-      <Box className="mt-15 w-full">
+      <Box className="mt-15 w-full max-h-290 overflow-hidden overflow-y-auto scrollbar-class">
         <Box className="px-20 py-8 bg-orange rounded-6 flex items-center justify-between">
           <div className="flex items-center">
             <img
@@ -120,7 +120,7 @@ const FamilyCard = () => {
             </Box>
           </div>
         </Box>
-        {["John Smith", "Dianne Russell", "Lisa Smith", "Sean Michaletz"].map(
+        {["John Smith", "Dianne Russell", "Lisa Smith", "Sean Michaletz","John Smith", "Dianne Russell", "Lisa Smith", "Sean Michaletz","John Smith", "Dianne Russell", "Lisa Smith", "Sean Michaletz","John Smith", "Dianne Russell", "Lisa Smith", "Sean Michaletz","John Smith", "Dianne Russell", "Lisa Smith", "Sean Michaletz","John Smith", "Dianne Russell", "Lisa Smith", "Sean Michaletz","John Smith", "Dianne Russell", "Lisa Smith", "Sean Michaletz","John Smith", "Dianne Russell", "Lisa Smith", "Sean Michaletz","John Smith", "Dianne Russell", "Lisa Smith", "Sean Michaletz","John Smith", "Dianne Russell", "Lisa Smith", "Sean Michaletz","John Smith", "Dianne Russell", "Lisa Smith", "Sean Michaletz","John Smith", "Dianne Russell", "Lisa Smith", "Sean Michaletz","John Smith", "Dianne Russell", "Lisa Smith", "Sean Michaletz","John Smith", "Dianne Russell", "Lisa Smith", "Sean Michaletz","John Smith", "Dianne Russell", "Lisa Smith", "Sean Michaletz","John Smith", "Dianne Russell", "Lisa Smith", "Sean Michaletz","John Smith", "Dianne Russell", "Lisa Smith", "Sean Michaletz","John Smith", "Dianne Russell", "Lisa Smith", "Sean Michaletz",].map(
           (data, index) => {
             return (
               <Box

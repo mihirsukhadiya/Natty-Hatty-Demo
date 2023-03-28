@@ -114,16 +114,20 @@ const Header = () => {
               />
             </div>
             {openMenu1 && (
-              <div className="mt-20 ml-20">
-                <div className="font-primary ml-13 text-base leading-19 text-white font-base">
+              <div className="pt-20 pl-20 relative">
+                <div className="font-primary ml-13 text-base leading-19 text-white font-base relative">
                   Sub Menu 1
+                  <div className="absolute top-8 left-[-22px] h-1 w-18 bg-orange"></div>
                 </div>
-                <div className="font-primary mt-15 ml-13 text-base leading-19 text-white font-base">
+                <div className="font-primary mt-15 ml-13 text-base leading-19 text-white font-base relative">
                   Sub Menu 2
+                  <div className="absolute top-8 left-[-22px] h-1 w-18 bg-orange"></div>
                 </div>
-                <div className="font-primary mt-15 ml-13 text-base leading-19 text-white font-base">
+                <div className="font-primary mt-15 ml-13 text-base leading-19 text-white font-base relative">
                   Sub Menu 3
+                  <div className="absolute top-8 left-[-22px] h-1 w-18 bg-orange"></div>
                 </div>
+                <div className="absolute top-0 left-10 h-97 w-1 bg-orange"></div>
               </div>
             )}
 

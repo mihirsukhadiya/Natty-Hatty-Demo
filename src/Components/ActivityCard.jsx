@@ -34,9 +34,9 @@ const ActivityCard = () => {
               </div>
             </div>
           </div>
-          {[0, 1, 2, 3].map((data) => {
+          {[0, 1, 2, 3].map((data, index) => {
             return (
-              <>
+              <div key={index}>
                 <div className="flex items-center mt-27">
                   <div className="w-34 h-34 rounded-full bg-lightPurple flex justify-center items-center">
                     <img className="w-17 h-12" src={Peoples} alt="peoples" />
@@ -69,7 +69,7 @@ const ActivityCard = () => {
                     </div>
                   </div>
                 </div>
-              </>
+              </div>
             );
           })}
         </Box>
@@ -92,9 +92,9 @@ const ActivityCard = () => {
             </div>
           </div>
         </div>
-        {[0, 1, 2].map((data) => {
+        {[0, 1, 2].map((data, index) => {
           return (
-            <>
+            <div key={index}>
               <div className="flex items-center mt-27">
                 <div className="w-34 h-34 rounded-full bg-lightPurple flex justify-center items-center">
                   <img className="w-17 h-12" src={Peoples} alt="peoples" />
@@ -127,7 +127,7 @@ const ActivityCard = () => {
                   </div>
                 </div>
               </div>
-            </>
+            </div>
           );
         })}
       </Box>

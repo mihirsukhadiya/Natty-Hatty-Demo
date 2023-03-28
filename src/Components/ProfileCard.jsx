@@ -77,7 +77,7 @@ const ProfileCard = () => {
               <input
                 className="xl:w-245 slg:w-130 py-9 ml-20 pl-13 border border-thirdGray font-primary slg:text-xs xl:text-sm font-medium leading-16 rounded-4 bg-white"
                 type="text"
-                value="John"
+                placeholder="John"
               />
             </Box>
             <Box className="flex items-center mt-10">
@@ -87,7 +87,7 @@ const ProfileCard = () => {
               <input
                 className="xl:w-245 slg:w-130 py-9 ml-20 pl-13 border border-thirdGray font-primary slg:text-xs xl:text-sm font-medium leading-16 rounded-4 bg-white"
                 type="text"
-                value="Smith"
+                placeholder="Smith"
               />
             </Box>
             <Box className="flex items-center mt-10">
@@ -97,7 +97,7 @@ const ProfileCard = () => {
               <input
                 className="xl:w-245 slg:w-130 py-9 xl:ml-54 slg:ml-48 pl-13 border opacity-50 border-thirdGray font-primary slg:text-xs xl:text-sm font-medium leading-16 rounded-4 bg-fourthGray"
                 type="text"
-                value="johnsmith@yahoo.com"
+                placeholder="johnsmith@yahoo.com"
               />
             </Box>
           </Box>
@@ -109,7 +109,7 @@ const ProfileCard = () => {
               <input
                 className="xl:w-160 slg:w-100 py-9 slg:ml-70 xl:ml-80 pl-13 border border-thirdGray font-primary slg:text-xs xl:text-sm font-medium leading-16 rounded-4 bg-white"
                 type="text"
-                value="+1 (324) 234-2342"
+                placeholder="+1 (324) 234-2342"
               />
             </Box>
             <Box className="flex items-center mt-10">
@@ -119,7 +119,7 @@ const ProfileCard = () => {
               <input
                 className="xl:w-160 slg:w-100 py-9 ml-20 pl-13 border border-thirdGray font-primary slg:text-xs xl:text-sm font-medium leading-16 rounded-4 bg-white"
                 type="text"
-                value="1988"
+                placeholder="1988"
               />
             </Box>
             <Box className="flex items-center mt-10">
@@ -129,24 +129,24 @@ const ProfileCard = () => {
               <input
                 className="xl:w-160 slg:w-100 py-9 xl:ml-41 slg:ml-35 pl-13 border opacity-50 border-thirdGray font-primary slg:text-xs xl:text-sm font-medium leading-16 rounded-4 bg-fourthGray"
                 type="text"
-                value="08/03/1960"
+                placeholder="08/03/1960"
               />
             </Box>
           </Box>
           <Box className="xl:ml-90 slg:ml-30">
             <Box className="flex flex-col justify-center gap-10">
               <Box className="rounded-4 bg-darkGreen text-center py-2.5 slg:w-100 xl:min-w-152 align-center">
-                <div className="font-primary text-white font-medium text-2xs leading-19 cursor-pointer">
+                <div className="font-primary text-white font-medium text-xs leading-19 cursor-pointer">
                   Save Changes
                 </div>
               </Box>
               <Box className="rounded-4 bg-thirdBlack text-center py-2.5 align-center  slg:w-100 xl:min-w-152">
-                <div className="font-primary text-white font-medium text-2xs leading-19 cursor-pointer">
+                <div className="font-primary text-white font-medium text-xs leading-19 cursor-pointer">
                   Change Password
                 </div>
               </Box>
               <Box className="rounded-4 bg-red text-center py-2.5 slg:w-100 xl:min-w-152 align-center">
-                <div className="font-primary text-white font-medium text-2xs leading-19 cursor-pointer">
+                <div className="font-primary text-white font-medium text-xs leading-19 cursor-pointer">
                   Leave Family
                 </div>
               </Box>
@@ -161,7 +161,7 @@ const ProfileCard = () => {
             <input
               className=" py-9 mt-5 pl-13 border border-thirdGray font-primary text-xs font-medium leading-16 rounded-4 bg-white"
               type="text"
-              value="John"
+              placeholder="John"
             />
           </Box>
           <Box className="flex flex-col">
@@ -171,7 +171,7 @@ const ProfileCard = () => {
             <input
               className=" py-9 mt-5 pl-13 border border-thirdGray font-primary text-xs font-medium leading-16 rounded-4 bg-white"
               type="text"
-              value="Smith"
+              placeholder="Smith"
             />
           </Box>
           <Box className="flex flex-col">
@@ -181,7 +181,7 @@ const ProfileCard = () => {
             <input
               className=" py-9 mt-5 pl-13 border border-thirdGray font-primary text-xs font-medium leading-16 rounded-4 bg-white"
               type="text"
-              value="1988"
+              placeholder="1988"
             />
           </Box>
           <Box className="flex flex-col">
@@ -191,7 +191,7 @@ const ProfileCard = () => {
             <input
               className=" py-9 mt-5 pl-13 border border-thirdGray font-primary text-xs font-medium leading-16 rounded-4 bg-white"
               type="text"
-              value="+1 (324) 234-2342"
+              placeholder="+1 (324) 234-2342"
             />
           </Box>
           <Box className="flex flex-col">
@@ -201,7 +201,7 @@ const ProfileCard = () => {
             <input
               className=" py-9 mt-5 pl-13 border border-thirdGray font-primary text-xs font-medium leading-16 rounded-4 bg-white"
               type="text"
-              value="08/03/1960"
+              placeholder="08/03/1960"
             />
           </Box>
         </div>
@@ -285,7 +285,7 @@ const ProfileCard = () => {
               <input
                 className="border py-10 px-13 border-thirdGray font-primary text-sm font-medium leading-16 rounded-4 bg-white"
                 type="text"
-                value="John"
+                placeholder="John"
               />
             </Box>
             <Box className="flex  flex-col mt-10">
@@ -295,7 +295,7 @@ const ProfileCard = () => {
               <input
                 className="border py-10 px-13 border-thirdGray font-primary text-sm font-medium leading-16 rounded-4 bg-white"
                 type="text"
-                value="+1 (324) 234-2342"
+                placeholder="+1 (324) 234-2342"
               />
             </Box>
           </div>
@@ -307,7 +307,7 @@ const ProfileCard = () => {
               <input
                 className=" border py-10 px-13 border-thirdGray font-primary text-sm font-medium leading-16 rounded-4 bg-white"
                 type="text"
-                value="Smith"
+                placeholder="Smith"
               />
             </Box>
             <Box className="flex  flex-col mt-10">
@@ -317,7 +317,7 @@ const ProfileCard = () => {
               <input
                 className=" border py-10 px-13 border-thirdGray font-primary text-sm font-medium leading-16 rounded-4 bg-white"
                 type="text"
-                value="1988"
+                placeholder="1988"
               />
             </Box>
           </div>

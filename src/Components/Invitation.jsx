@@ -23,10 +23,11 @@ const Invitation = () => {
                 </div>
                 <Box className="absolute top-0 rounded-full bg-orange py-8 w-80 align-center text-center">
                   <div
-                    className="font-primary text-white font-semibold text-sm leading-14 cursor-pointer"
+                    className="font-primary text-white font-semibold text-sm leading-14 cursor-pointer relative"
                     onClick={() => setToggle("sent")}
                   >
                     Sent (15)
+                    <div className="arrow-down-desktop-sent"></div>
                   </div>
                 </Box>
               </Box>
@@ -41,10 +42,11 @@ const Invitation = () => {
                 </div>
                 <Box className="absolute top-0 right-0 rounded-full  bg-orange py-8 w-107 align-center text-center">
                   <div
-                    className="font-primary   text-white font-semibold text-sm leading-14 cursor-pointer"
+                    className="font-primary   text-white font-semibold text-sm leading-14 cursor-pointer relative"
                     onClick={() => setToggle("receive")}
                   >
                     Received (5)
+                    <div className="arrow-down-desktop-received"></div>
                   </div>
                 </Box>
               </Box>
@@ -134,10 +136,11 @@ const Invitation = () => {
                 </div>
                 <Box className="absolute top-0 rounded-full bg-orange py-8 w-80 align-center text-center">
                   <div
-                    className="font-primary text-white font-semibold text-sm leading-14 cursor-pointer"
+                    className="font-primary text-white font-semibold text-sm leading-14 cursor-pointer relative"
                     onClick={() => setToggle("sent")}
                   >
                     Sent (15)
+                    <div className="arrow-down-desktop-sent"></div>
                   </div>
                 </Box>
               </Box>
@@ -152,10 +155,11 @@ const Invitation = () => {
                 </div>
                 <Box className="absolute top-0 right-0 rounded-full  bg-orange py-8 w-107 align-center text-center">
                   <div
-                    className="font-primary   text-white font-semibold text-sm leading-14 cursor-pointer"
+                    className="font-primary   text-white font-semibold text-sm leading-14 cursor-pointer relative"
                     onClick={() => setToggle("receive")}
                   >
                     Received (5)
+                    <div className="arrow-down-desktop-received"></div>
                   </div>
                 </Box>
               </Box>
