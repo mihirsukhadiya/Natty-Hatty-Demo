@@ -36,18 +36,21 @@ body {
   border-top: 8px solid #f8991f;
 }
 .scrollbar-class::-webkit-scrollbar {
-  width: 20px;
+  width: 0.5rem;
   cursor: pointer;
 }
 .scrollbar-class::-webkit-scrollbar-track {
-  width: 2px;
+  width: "0.4em";
   background-color: #e8e8e8;
-  border-radius: 10px;
 }
 
 .scrollbar-class::-webkit-scrollbar-thumb {
-  background: rgba(35, 46, 62, 0.5);
+  background: rgba(0, 0, 0, 0.1);
   opacity: 50%;
+  border-radius: 6px;
   cursor: pointer;
-  border-radius: 10px;
+}
+.activityCard{
+  max-height: 29rem;
+  overflow-y: auto;
 }

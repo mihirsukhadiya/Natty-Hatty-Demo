@@ -4,7 +4,7 @@ import MasterCard from "../Assets/Image/mastercard.png";
 const BankCard = () => {
   return (
     <>
-      <Box className="bg-secondWhite rounded-6 px-18 pt-10.5 pb-70 hidden md:flex flex-col xs:h-auto md:h-full slg:h-auto">
+      <Box className="bg-secondWhite rounded-6 px-18 pt-10.5 pb-20 hidden md:flex flex-col xs:h-auto md:h-full slg:h-auto">
         <div className="font-primary text-black font-semibold text-smd leading-21">
           Bank Account
         </div>

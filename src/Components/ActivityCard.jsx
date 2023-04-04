@@ -17,7 +17,7 @@ const ActivityCard = () => {
             </Box>
           </div>
         </Box>
-        <Box className="mt-35">
+        <Box className="mt-35 activityCard scrollbar-class">
           <div className="flex items-center">
             <div className="w-34 h-34 rounded-full bg-lightPurple flex justify-center items-center">
               <img className="w-17 h-12" src={Peoples} alt="peoples" />
@@ -75,7 +75,7 @@ const ActivityCard = () => {
         </Box>
       </Box>
 
-      <Box className="mt-35 md:hidden block">
+      <Box className="mt-35 md:hidden block scrollbar-class activityCard">
         <div className="flex items-center">
           <div className="w-34 h-34 rounded-full bg-lightPurple flex justify-center items-center">
             <img className="w-17 h-12" src={Peoples} alt="peoples" />

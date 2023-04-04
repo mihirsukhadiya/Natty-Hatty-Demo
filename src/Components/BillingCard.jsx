@@ -4,7 +4,7 @@ import React, { useState } from "react";
 const BillingCard = () => {
   const [checkBox, setCheckBox] = useState(true)
   return (
-    <Box className="bg-secondWhite md:mt-0 slg:mt-20 rounded-6 px-18 pt-10.5 pb-70 flex flex-col xs:h-auto md:h-full slg:h-auto">
+    <Box className="bg-secondWhite md:mt-0 slg:mt-20 rounded-6 px-18 pt-10.5 pb-30 flex flex-col xs:h-auto md:h-full slg:h-auto">
       <div className="slg:block md:flex md:justify-between md:items-center">
         <div className="font-primary text-black font-semibold text-smd leading-21">
           Billing Address
